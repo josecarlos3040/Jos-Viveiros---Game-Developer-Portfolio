@@ -1,0 +1,18 @@
+  .project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .project-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  }
+    .contact-card a:hover {
+    text-decoration: underline;
+    color: #00c8ff;
+  }
+  .contact-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  }
