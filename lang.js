@@ -41,7 +41,15 @@ const texts = {
         description: `A game concept of a 2D platformer where a maned wolf saves animals in a paper fire, made for Global Solution FIAP.`,
         button: "See in Figma",
         link: "https://www.figma.com/slides/jEu1diVIqTjek7ipczn5wW/Paper-Forest?node-id=1-81&t=a9P1FQJ9d0iOoItm-1"
+      },
+      {
+        title: "Tentaclysm",
+        badge: "Award-winning",
+        description: `Tentaclysm is a 2D top-down arena shooter game that puts you in control of Octo on a quest for revenge. Top 10 Challenge Fiap 2025.`,
+        button: "Play on Itch.io",
+        link: "https://zecavi.itch.io/tentaclysm?secret=OtYzJw3FPqo6pWuDWhAFGY44Vrc"
       }
+
     ],
     contactTitle: "Contact",
     contactSubtitle: "Let’s connect! Feel free to reach out:",
@@ -85,6 +93,13 @@ const texts = {
         description: `Conceito de jogo 2D onde uma lobo-guará salva animais em um incêndio de papel, feito para Global Solution FIAP.`,
         button: "Ver no Figma",
         link: "https://www.figma.com/slides/jEu1diVIqTjek7ipczn5wW/Paper-Forest?node-id=1-81&t=a9P1FQJ9d0iOoItm-1"
+      },
+      {
+        title: "Tentaclysm",
+        badge: "Premiado",
+        description: `Tentaclysm é um game arena shooter 2d Top-down onde te coloca no controle de Octo em busca de vingança. Top 10 Challenge Fiap 2025`,
+        button: "Jogar no Itch.io",
+        link: "https://zecavi.itch.io/tentaclysm?secret=OtYzJw3FPqo6pWuDWhAFGY44Vrc"
       }
     ],
     contactTitle: "Contato",
