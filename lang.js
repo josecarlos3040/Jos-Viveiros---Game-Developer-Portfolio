@@ -31,7 +31,7 @@ const texts = {
       {
         title: "Depths of the Sleep",
         badge: "Game Jam",
-        description: `Experimental card game made for the <em>Ludum Dare</em> jam. I contributed as a <strong>Unity programmer</strong>.`,
+        description: `Experimental card game made for the <em>Ludum Dare</em> jam. I worked as a <strong>Unity programmer</strong>.`,
         button: "Play on Itch.io",
         link: "https://purrfectstudio.itch.io/dephts-of-the-sleep"
       },
@@ -45,9 +45,18 @@ const texts = {
       {
         title: "Tentaclysm",
         badge: "Award-winning",
-        description: `Tentaclysm is a 2D top-down arena shooter game that puts you in control of Octo on a quest for revenge. Top 10 Challenge Fiap 2025.`,
+        description: `Tentaclysm is a 2D top-down arena shooter game that puts you in control of Octo on a quest for revenge. Top 10 Challenge Fiap 2025. I worked as a <strong>Unity programmer</strong>`,
         button: "Play on Itch.io",
         link: "https://zecavi.itch.io/tentaclysm?secret=OtYzJw3FPqo6pWuDWhAFGY44Vrc"
+      },
+      {
+        title: "Blank Work",
+        badge: "Game Jam",
+        description: `BlankWork is a clicker game where your goal is to achieve success, generate money, hire people (or AI), buy stocks, or help NGOs; your choices can change the world.
+
+      Made for Global Solution, The Future of Work. I worked as a <strong>Unity programmer</strong>`,
+        button: "Play on Itch.io",
+        link: "https://untitled-gamestudio.itch.io/blank-work"
       }
 
     ],
@@ -83,7 +92,7 @@ const texts = {
       {
         title: "Depths of the Sleep",
         badge: "Game Jam",
-        description: `Jogo experimental de cartas feito para o jam <em>Ludum Dare</em>. Contribuí como <strong>programador Unity</strong>.`,
+        description: `Jogo experimental de cartas feito para o jam <em>Ludum Dare</em>. Trabalhei como <strong>programador Unity</strong>.`,
         button: "Jogar no Itch.io",
         link: "https://purrfectstudio.itch.io/dephts-of-the-sleep"
       },
@@ -97,9 +106,18 @@ const texts = {
       {
         title: "Tentaclysm",
         badge: "Premiado",
-        description: `Tentaclysm é um game arena shooter 2d Top-down onde te coloca no controle de Octo em busca de vingança. Top 10 Challenge Fiap 2025`,
+        description: `Tentaclysm é um game arena shooter 2d Top-down onde te coloca no controle de Octo em busca de vingança. Top 10 Challenge Fiap 2025. Trabalhei como <strong>programador Unity</strong>.`,
         button: "Jogar no Itch.io",
-        link: "https://zecavi.itch.io/tentaclysm?secret=OtYzJw3FPqo6pWuDWhAFGY44Vrc"
+        link: "https://untitled-gamestudio.itch.io/blank-work"
+      },
+      {
+        title: "Blank Work",
+        badge: "Game Jam",
+        description: `BlankWork é um jogo de cliques onde seu objetivo é alcançar o sucesso, gerar dinheiro, contratar pessoas (ou IA), comprar ações ou ajudar ONGs; suas escolhas podem mudar o mundo.
+
+      Criado para a Global Solution, O Futuro do Trabalho. Trabalhei como <strong>programador Unity</strong>.`,
+        button: "Jogar no Itch.io",
+        link: "https://untitled-gamestudio.itch.io/blank-work"
       }
     ],
     contactTitle: "Contato",
