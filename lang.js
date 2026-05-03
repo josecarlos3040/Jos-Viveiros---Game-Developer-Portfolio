@@ -1,5 +1,5 @@
 // =========================
-// lang.js - Tradução da página
+// lang.js - Conteúdo Original com Suporte a Abas
 // =========================
 
 const texts = {
@@ -12,7 +12,9 @@ const texts = {
       In games, I contributed as a programmer on the project <strong>Izzy and Alli</strong>, which received awards such as <em>Change the Game</em> and <em>Sampa Games</em>. I also collaborate with <strong>Purfect Studio</strong>, mainly during Game Jams, prototyping creative and experimental titles.<br><br>
       Based in <strong>São Paulo, Brazil</strong>, I combine programming, data, and web experience with game development, building projects that balance creativity and technical execution.
     </p>`,
-    portfolioTitle: "My Games",
+    portfolioTitle: "Portfolio",
+    tabGames: "My Games",
+    tabExternal: "Other Projects",
     projects: [
       {
         title: "Izzy and Alli",
@@ -52,13 +54,34 @@ const texts = {
       {
         title: "Blank Work",
         badge: "Game Jam",
-        description: `BlankWork is a clicker game where your goal is to achieve success, generate money, hire people (or AI), buy stocks, or help NGOs; your choices can change the world.
-
-      Made for Global Solution, The Future of Work. I worked as a <strong>Unity programmer</strong>`,
+        description: `BlankWork is a clicker game where your goal is to achieve success, generate money, hire people (or AI), buy stocks, or help NGOs; your choices can change the world. Made for Global Solution, The Future of Work. I worked as a <strong>Unity programmer</strong>`,
         button: "Play on Itch.io",
         link: "https://untitled-gamestudio.itch.io/blank-work"
-      }
+      },
 
+      {
+        title: "Ninja Time",
+        badge: "College Assignment",
+        description: `Ninja Time is a game about the theme "Time cannot run out". A ninja seeking to overcome inner challenges must defeat versions of himself in a short period of time. I worked as a <strong>Unity programmer</strong> and artist!!`,
+        button: "Jogar no Itch.io",
+        link: "https://zecavi.itch.io/ninja-time"
+      },
+
+      {
+        title: "Tech Art / Space",
+        badge: "College assignment",
+        description: `A short study video about a scene in space, using post-processing, shader lighting, and effects.`,
+        button: "See on Youtube",
+        link: "https://www.youtube.com/watch?v=_HxHS7afWVE"
+      },
+
+      {
+        title: "Android / Study",
+        badge: "College assignmen",
+        description: `A short video about a hypercasual game where the scenery moves automatically and the player must avoid obstacles, made in a few hours on Unity for Android.`,
+        button: "See on Youtube",
+        link: "https://www.youtube.com/watch?v=L-4NmYMHUTg"
+      }
     ],
     contactTitle: "Contact",
     contactSubtitle: "Let’s connect! Feel free to reach out:",
@@ -73,7 +96,9 @@ const texts = {
       No campo dos jogos, fui programador no projeto <strong>Izzy and Alli</strong>, vencedor de prêmios como <em>Change the Game</em> e <em>Sampa Games</em>. Também colaboro com a <strong>Purfect Studio</strong>, principalmente em Game Jams, desenvolvendo protótipos criativos e experimentais.<br><br>
       Moro em <strong>São Paulo</strong> e busco unir minha experiência em programação, dados e web com o desenvolvimento de jogos, sempre equilibrando criatividade e execução técnica.
     </p>`,
-    portfolioTitle: "Meus Jogos",
+    portfolioTitle: "Portfólio",
+    tabGames: "Meus Jogos",
+    tabExternal: "Outros Projetos",
     projects: [
       {
         title: "Izzy and Alli",
@@ -108,16 +133,38 @@ const texts = {
         badge: "Premiado",
         description: `Tentaclysm é um game arena shooter 2d Top-down onde te coloca no controle de Octo em busca de vingança. Top 10 Challenge Fiap 2025. Trabalhei como <strong>programador Unity</strong>.`,
         button: "Jogar no Itch.io",
-        link: "https://untitled-gamestudio.itch.io/blank-work"
+        link: "https://zecavi.itch.io/tentaclysm?secret=OtYzJw3FPqo6pWuDWhAFGY44Vrc"
       },
       {
         title: "Blank Work",
         badge: "Game Jam",
-        description: `BlankWork é um jogo de cliques onde seu objetivo é alcançar o sucesso, gerar dinheiro, contratar pessoas (ou IA), comprar ações ou ajudar ONGs; suas escolhas podem mudar o mundo.
-
-      Criado para a Global Solution, O Futuro do Trabalho. Trabalhei como <strong>programador Unity</strong>.`,
+        description: `BlankWork é um jogo de cliques onde seu objetivo é alcançar o sucesso, gerar dinheiro, contratar pessoas (ou IA), comprar ações ou ajudar ONGs; suas escolhas podem mudar o mundo. Criado para a Global Solution, O Futuro do Trabalho. Trabalhei como <strong>programador Unity</strong>.`,
         button: "Jogar no Itch.io",
         link: "https://untitled-gamestudio.itch.io/blank-work"
+      },
+
+      {
+        title: "Ninja Time",
+        badge: "Trabalho de Faculdade",
+        description: `Ninja Time é um game sobre o tema "O tempo não pode acabar". Um ninja em busca de superar desafios internos deve derrotar versões de si mesmo em um curto período de tempo. Trabalhei como <strong>programador Unity</strong>. e artista!!`,
+        button: "Jogar no Itch.io",
+        link: "https://zecavi.itch.io/ninja-time"
+      },
+
+      {
+        title: "Tech Art / Space",
+        badge: "Trabalho de Faculdade",
+        description: `Um breve video de estudo sobre uma cena no espaço, utilizando post processing, shader luzes e efeitos, feito na unity`,
+        button: "Ver no Youtube",
+        link: "https://www.youtube.com/watch?v=_HxHS7afWVE"
+      },
+
+      {
+        title: "Android / Estudo",
+        badge: "Trabalho de Faculdade",
+        description: `Um breve video de um game hipercasual onde cenario se movimenta sozinho e o player deve desviar de obstaculos, feito em poucas horas na Unity para android`,
+        button: "Ver no Youtube",
+        link: "https://www.youtube.com/watch?v=L-4NmYMHUTg"
       }
     ],
     contactTitle: "Contato",
@@ -126,9 +173,6 @@ const texts = {
   }
 };
 
-// =========================
-// Função para mudar idioma
-// =========================
 function setLanguage(lang) {
   // Navbar
   document.querySelectorAll('.navbar-nav .nav-link')[0].textContent = texts[lang].navbar.about;
@@ -138,16 +182,30 @@ function setLanguage(lang) {
   // About
   document.getElementById('about-text').innerHTML = texts[lang].about;
 
-  // Portfolio
+  // Portfolio Header e Abas
   document.querySelector('#portfolio h2').textContent = texts[lang].portfolioTitle;
-  const projectCards = document.querySelectorAll('#portfolio .card');
-  projectCards.forEach((card, i) => {
-    const project = texts[lang].projects[i];
-    card.querySelector('.card-title').childNodes[0].textContent = project.title + " "; // mantém o badge
-    card.querySelector('.badge').textContent = project.badge;
-    card.querySelector('.card-text').innerHTML = project.description;
-    card.querySelector('a.btn').textContent = project.button;
-    card.querySelector('a.btn').href = project.link;
+  // Note: Certifique-se de que os IDs 'games-tab' e 'external-tab' existem no seu HTML
+  if(document.getElementById('games-tab')) document.getElementById('games-tab').textContent = texts[lang].tabGames;
+  if(document.getElementById('external-tab')) document.getElementById('external-tab').textContent = texts[lang].tabExternal;
+
+  // Cards (Usa o data-index do HTML para garantir que o texto certo vá para o card certo)
+  const projectCards = document.querySelectorAll('.project-card');
+  projectCards.forEach((card) => {
+    const dataIndexElement = card.querySelector('[data-index]');
+    if (dataIndexElement) {
+      const i = dataIndexElement.getAttribute('data-index');
+      const project = texts[lang].projects[i];
+      
+      // Atualiza Título e mantém o Badge
+      const titleEl = card.querySelector('.card-title');
+      if (titleEl) {
+        titleEl.innerHTML = `${project.title} <span class="badge bg-primary">${project.badge}</span>`;
+      }
+
+      card.querySelector('.card-text').innerHTML = project.description;
+      card.querySelector('a.btn').textContent = project.button;
+      card.querySelector('a.btn').href = project.link;
+    }
   });
 
   // Contact
@@ -158,11 +216,30 @@ function setLanguage(lang) {
   document.querySelector('footer p').innerHTML = texts[lang].footer;
 }
 
-// =========================
-// Eventos dos botões
-// =========================
 document.getElementById('btn-en').addEventListener('click', () => setLanguage('en'));
 document.getElementById('btn-pt').addEventListener('click', () => setLanguage('pt'));
 
-// Inicializa em inglês
-setLanguage('en');
+// Inicializa em Português por padrão
+document.addEventListener('DOMContentLoaded', () => setLanguage('pt'));
+
+const darkBtn = document.getElementById('btn-dark');
+const icon = darkBtn.querySelector('i');
+
+// Carrega preferência
+if (localStorage.getItem('darkMode') === 'true') {
+  document.body.classList.add('dark');
+  icon.classList.remove('fa-moon');
+  icon.classList.add('fa-sun');
+}
+
+darkBtn.addEventListener('click', () => {
+  document.body.classList.toggle('dark');
+
+  const isDark = document.body.classList.contains('dark');
+
+  // troca ícone
+  icon.classList.toggle('fa-moon', !isDark);
+  icon.classList.toggle('fa-sun', isDark);
+
+  localStorage.setItem('darkMode', isDark);
+});

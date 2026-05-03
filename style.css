@@ -16,3 +16,72 @@
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
   }
+
+  .card-img-top {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: center;
+}
+body.dark {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark .bg-light {
+  background-color: #1e1e1e !important;
+}
+
+body.dark .bg-dark {
+  background-color: #000 !important;
+}
+
+body.dark .card {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+body.dark .nav-link {
+  color: #ccc ;
+}
+
+body.dark .nav-pills .nav-link.active {
+  background-color: #fff;
+  color: #000 !important;
+}
+
+body.dark .btn-outline-dark {
+  color: #fff;
+  border-color: #fff;
+}
+
+body.dark .btn-outline-dark:hover {
+  color: #000;
+}
+#btn-dark {
+  border: none;
+  background: transparent;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+#btn-dark i {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+/* hover bonito sem borda */
+#btn-dark:hover {
+  background: rgba(255, 255, 255, 0.15);
+  transform: scale(1.1);
+}
+
+/* opcional: muda levemente a cor */
+#btn-dark:hover i {
+  color: #ffd700; /* dourado leve tipo sol */
+}
