@@ -63,7 +63,7 @@ const texts = {
         title: "Ninja Time",
         badge: "College Assignment",
         description: `Ninja Time is a game about the theme "Time cannot run out". A ninja seeking to overcome inner challenges must defeat versions of himself in a short period of time. I worked as a <strong>Unity programmer</strong> and artist!!`,
-        button: "Jogar no Itch.io",
+        button: "Play on Itch.io",
         link: "https://zecavi.itch.io/ninja-time"
       },
 
@@ -74,13 +74,19 @@ const texts = {
         button: "See on Youtube",
         link: "https://www.youtube.com/watch?v=_HxHS7afWVE"
       },
-
       {
         title: "Android / Study",
         badge: "College assignmen",
-        description: `A short video about a hypercasual game where the scenery moves automatically and the player must avoid obstacles, made in a few hours on Unity for Android.`,
-        button: "See on Youtube",
-        link: "https://www.youtube.com/watch?v=L-4NmYMHUTg"
+        description: `A short video of a hyper-casual game, <strong>created in Unity for Android</strong> over the course of two weeks, where the player uses a slingshot mechanic to ascend, dodging obstacles to avoid being caught by the lava.`,
+        button: "See the post on LinkedIn.",
+        link: "https://www.linkedin.com/feed/update/urn:li:activity:7465157612934848513/"
+      },
+      {
+        title: "Orbiting",
+        badge: "Game Jam",
+        description: `Orbiting is a space exploration game inspired by the Artemis mission of 2026, made in <strong>Unity</strong> in two and a half weeks.`,
+        button: "Play on Itch.io",
+        link: "https://untitled-gamestudio.itch.io/orbiting"
       }
     ],
     contactTitle: "Contact",
@@ -162,9 +168,16 @@ const texts = {
       {
         title: "Android / Estudo",
         badge: "Trabalho de Faculdade",
-        description: `Um breve video de um game hipercasual onde cenario se movimenta sozinho e o player deve desviar de obstaculos, feito em poucas horas na Unity para android`,
-        button: "Ver no Youtube",
-        link: "https://www.youtube.com/watch?v=L-4NmYMHUTg"
+        description: `Um breve video de um game hipercasual onde o jogador, usando efeito de estilingue com os dedos, deve subir desviando dos obstaculos para nao ser pego pela lava, feito em duas semanas na <strong>Unity para android</strong>`,
+        button: "Ver post no linkedin",
+        link: "https://www.linkedin.com/feed/update/urn:li:activity:7465157612934848513/"
+      },
+            {
+        title: "Orbiting",
+        badge: "Game Jam",
+        description: `Orbiting é um jogo de exploração espacial inspirado na missão Artemis de 2026, feito na <strong>unity</strong> em duas semanas e meia.`,
+        button: "Play on Itch.io",
+        link: "https://untitled-gamestudio.itch.io/orbiting"
       }
     ],
     contactTitle: "Contato",
