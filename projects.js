@@ -253,7 +253,7 @@ window.PROJECTS = [
     content: {
       pt: {
         summary: 'Um RPG por turnos com visual de papel desenvolvido em apenas três dias.',
-        overview: 'Paper Birdo nasceu durante a Bird Game Jam: um RPG por turnos, com identidade visual inspirada em papel, produzido em equipe de 2 pessoas sob um prazo de três dias.',
+        overview: 'Paper Birdo nasceu durante a Bird Game Jam. Um RPG por turnos, com identidade visual inspirada em papel, produzido em equipe de 2 pessoas sob um prazo de três dias.',
         challenge: 'Transformar uma ideia em uma experiência jogável com sistemas de RPG dentro de um prazo extremamente curto.',
         solution: 'Contribuí com programação em Unity, colaborando com a equipe para implementar e integrar os elementos necessários ao protótipo, além das artes também.',
         highlights: ['Programação de um protótipo de RPG por turnos.', 'Integração de gameplay e interface em Unity.','Colaboração e priorização de escopo durante a game jam.'],
@@ -261,7 +261,7 @@ window.PROJECTS = [
       },
       en: {
         summary: 'A turn-based RPG with a paper-inspired art style, built in just three days.',
-        overview: 'Paper Birdo was created during the Bird Game Jam: a turn-based RPG with a paper-inspired visual style, produced by a two-person team within a three-day deadline.',
+        overview: 'Paper Birdo was created during the Bird Game Jam. A turn-based RPG with a paper-inspired visual style, produced by a two-person team within a three-day deadline.',
         challenge: 'Turn an idea into a playable RPG with only three days available.',
         solution: 'I contributed with programming in Unity, collaborating with the team to implement and integrate the elements required for the prototype, as well as the artwork.',
         highlights: ['Turn-based RPG prototype programming.', 'Gameplay and UI integration in Unity.', 'Team collaboration and scope prioritization during the jam.'],
@@ -292,7 +292,7 @@ window.PROJECTS = [
         summary: 'Um jogo experimental de cartas criado para a Ludum Dare.',
         overview: 'Depths of the Sleep é uma experiência experimental baseada em cartas, desenvolvida em equipe durante uma edição da Ludum Dare.',
         challenge: 'Prototipar uma proposta diferente e integrar rapidamente as interações centrais do jogo dentro do tempo de uma game jam.',
-        solution: 'Atuei com programação em Unity, auxiliando a equipe a transformar o conceito em um protótipo jogável.',
+        solution: 'Atuei com programação em Unity, auxiliando a equipe a transformar o conceito em um protótipo jogável, atuando principalmente nas mecânicas das cartas.',
         highlights: ['Programação de sistemas de um jogo experimental de cartas.', 'Desenvolvimento rápido e integração em equipe.', 'Iteração de mecânicas.'],
         outcomes: ['Protótipo desenvolvido e publicado para a Ludum Dare.']
       },
@@ -300,7 +300,7 @@ window.PROJECTS = [
         summary: 'An experimental card game created for Ludum Dare.',
         overview: 'Depths of the Sleep is an experimental card-based experience developed by a team during a Ludum Dare game jam.',
         challenge: 'Prototype an unusual concept and integrate its core interactions within a limited jam timeframe.',
-        solution: 'I worked on programming in Unity, helping the team turn the concept into a playable prototype.',
+        solution: 'I worked on programming in Unity, helping the team turn the concept into a playable prototype, focusing primarily on card mechanics.',
         highlights: ['Programming for an experimental card-based game.', 'Rapid development and team integration.', 'Iterating on mechanics.'],
         outcomes: ['Prototype developed and published for Ludum Dare.']
       }
@@ -312,7 +312,7 @@ window.PROJECTS = [
     title: 'Ninja Time',
     image: 'image/Ninja Time.png',
     featured: false,
-    visible: true,
+    visible: false,
     year: '—',
     tools: ['Unity', 'C#', 'Pixel Art'],
     role: { pt: 'Programação · Arte', en: 'Programming · Art' },
@@ -356,7 +356,6 @@ window.PROJECTS = [
       pt: {
         summary: 'Um conceito de plataforma 2D sobre um lobo-guará resgatando animais de um incêndio.',
         overview: 'Paper Forest é uma proposta de jogo de plataforma 2D com temática ambiental, criada para a Global Solution da FIAP. A história acompanha um lobo-guará que tenta salvar animais durante um incêndio em uma floresta de papel.',
-        challenge: 'Usar linguagem visual e mecânicas de jogo para comunicar uma temática ambiental de forma acessível.',
         solution: 'Participei do desenvolvimento da proposta em equipe, estruturando um conceito de experiência que combina plataforma e mensagem socioambiental.',
         highlights: ['Conceito de jogo de plataforma 2D.', 'Temática de preservação ambiental.', 'Apresentação da proposta em Figma.'],
         outcomes: ['Conceito apresentado para a Global Solution FIAP.']
@@ -364,7 +363,6 @@ window.PROJECTS = [
       en: {
         summary: 'A 2D platformer concept about a maned wolf rescuing animals from a forest fire.',
         overview: 'Paper Forest is an environmental 2D platformer concept created for FIAP Global Solution. The story follows a maned wolf trying to save animals during a fire in a paper forest.',
-        challenge: 'Use game mechanics and visuals to communicate an environmental theme in an approachable way.',
         solution: 'I contributed to developing the team concept, shaping an experience that combines platform gameplay and a social/environmental message.',
         highlights: ['2D platformer game concept.', 'Environmental preservation theme.', 'Concept presentation in Figma.'],
         outcomes: ['Concept presented for FIAP Global Solution.']
@@ -421,18 +419,12 @@ window.PROJECTS = [
       pt: {
         summary: 'Estudo visual de ambiente espacial com iluminação, shaders e pós-processamento.',
         overview: 'Uma cena 3D criada como exercício de Tech Art em Unity, explorando como iluminação e efeitos de pós-processamento podem transformar a percepção de um ambiente.',
-        challenge: 'Compor uma cena espacial legível e atmosférica usando recursos técnicos de renderização.',
-        solution: 'Experimentei com materiais, shaders, iluminação e pós-processamento para compor a cena e apresentar o resultado em vídeo.',
         highlights: ['Construção e composição de cena 3D.', 'Iluminação e efeitos de pós-processamento.', 'Apresentação em vídeo do estudo.'],
-        outcomes: ['Estudo técnico com vídeo demonstrativo.']
       },
       en: {
         summary: 'A visual environment study using lighting, shaders, and post-processing in a sci-fi setting.',
         overview: 'A 3D scene created as a Unity Tech Art exercise, exploring how lighting and post-processing shape the atmosphere and readability of an environment.',
-        challenge: 'Compose a readable, atmospheric science-fiction scene with technical rendering tools.',
-        solution: 'I experimented with materials, shaders, lighting, and post-processing to compose and present the scene in a short video.',
         highlights: ['3D scene building and composition.', 'Lighting and post-processing effects.', 'Short video demonstration.'],
-        outcomes: ['Completed technical study with a demonstration video.']
       }
     }
   },
