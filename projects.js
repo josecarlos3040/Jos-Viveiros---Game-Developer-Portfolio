@@ -134,7 +134,7 @@ window.PROJECTS = [
     content: {
       pt: {
         summary: 'Um jogo narrativo top-down que começou em uma competição e chegou a eventos internacionais.',
-        overview: 'Izzy & Alli é um jogo narrativo com perspectiva top-down, desenvolvido em equipe. O projeto começou na Change the Game e continuou sua trajetória no circuito independente, incluindo participações em eventos da indústria.',
+        overview: 'Izzy & Alli é um jogo narrativo com perspectiva top-down, desenvolvido em equipe. O projeto começou na Change the Game e continuou sua trajetória no circuito independente, incluindo participações em eventos como a gamescom cologne.',
         challenge: 'Construir uma experiência narrativa coesa em equipe, fazendo os elementos técnicos e sonoros trabalharem a favor da atmosfera do jogo.',
         solution: 'Participei da implementação de funcionalidades em Godot e assumi responsabilidades de direção de áudio, colaborando para que programação, ambientação e experiência do jogador funcionassem em conjunto.',
         highlights: ['Programação de funcionalidades do jogo com Godot, como sistema de quests e interfaces.', 'Participação nas decisões e implementação de áudio.', 'Colaboração com equipe multidisciplinar em um projeto de longo prazo.'],
@@ -143,7 +143,7 @@ window.PROJECTS = [
       },
       en: {
         summary: 'A top-down narrative game that started at a competition and made its way to international gaming events.',
-        overview: 'Izzy & Alli is a team-developed top-down narrative game. It began at Change the Game and continued through the independent game scene, including appearances at industry events.',
+        overview: 'Izzy & Alli is a top-down narrative game developed by a team. The project began at Change the Game and continued its journey within the independent scene, including appearances at events such as gamescom Cologne.',
         challenge: 'Create a cohesive narrative experience as a team, making technical and audio elements support the overall atmosphere.',
         solution: 'I contributed to gameplay functionality in Godot and took on audio direction responsibilities, working across programming, ambiance, and the player experience.',
         highlights: ['Programming game features with Godot, such as the quest system and interfaces.', 'Contributed to audio direction and its implementation.', 'Collaborated with a multidisciplinary team on a long-running project.'],

@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="home.css">
   <script src="projects.js" defer></script>
   <script src="lang.js" defer></script>
   <script src="app.js" defer></script>
@@ -21,6 +22,7 @@
       <a class="brand" href="index.html" aria-label="Página inicial de José Viveiros"><span class="brand-symbol">J<span class="brand-dot">.</span>V</span><span class="brand-wordmark">JOSÉ VIVEIROS <small>GAME DEVELOPER</small></span></a>
       <nav class="nav-links" aria-label="Navegação principal">
         <a href="#work" data-i18n="navWork">Projetos</a>
+        <a href="#experience" data-i18n="navExperience">Experiência</a>
         <a href="#about" data-i18n="navAbout">Sobre</a>
         <a href="#contact" data-i18n="navContact">Contato</a>
       </nav>
@@ -35,57 +37,93 @@
   </header>
 
   <main id="main">
-    <section class="hero container" aria-labelledby="hero-title">
+    <section class="hero container hero-personal" aria-labelledby="hero-title">
       <div class="hero-copy">
-        <p class="eyebrow"><span class="status-dot"></span><span data-i18n="heroEyebrow">PORTFÓLIO / GAME DEVELOPMENT</span></p>
-        <h1 id="hero-title" data-i18n-html="heroTitle">Eu transformo <em>ideias</em> em experiências <em>jogáveis.</em></h1>
-        <p class="hero-summary" data-i18n="heroDescription">Sou José Carlos, desenvolvedor de jogos focado em gameplay, sistemas e experiências interativas. Trabalho principalmente com Unity e Godot.</p>
+        <p class="eyebrow"><span class="status-dot"></span><span data-i18n="heroEyebrow">OI, PRAZER. SOU O JOSÉ.</span></p>
+        <h1 id="hero-title" data-i18n-html="heroTitle">Faço jogos. E continuo sendo <em>jogador</em> antes de tudo.</h1>
+        <p class="hero-summary" data-i18n="heroDescription">Sou José Carlos, de São Paulo. Comecei minha trajetória programando para web e trabalhando com dados, mas foi no desenvolvimento de jogos que encontrei o tipo de problema que mais gosto de resolver. Hoje crio principalmente com Unity e Godot.</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#work"><span data-i18n="viewProjects">Explorar meus projetos</span><span aria-hidden="true">↗</span></a>
-          <a class="text-link" href="#about"><span data-i18n="knowMe">Conheça meu trabalho</span><span aria-hidden="true">→</span></a>
+          <a class="button button-primary" href="#work"><span data-i18n="viewProjects">Ver meus jogos</span><span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#experience"><span data-i18n="knowMe">Minha trajetória</span><span aria-hidden="true">→</span></a>
         </div>
         <div class="hero-proof">
-          <div><strong>Unity + Godot</strong><span data-i18n="heroProof1">Engines principais</span></div>
-          <div><strong>Change the Game</strong><span data-i18n="heroProof2">1º lugar em equipe</span></div>
-          <div><strong>FIAP</strong><span data-i18n="heroProof3">Jogos Digitais</span></div>
+          <div><strong>FIAP</strong><span data-i18n="heroProof1">Jogos Digitais</span></div>
+          <div><strong>IFSP</strong><span data-i18n="heroProof2">Técnico em Informática</span></div>
+          <div><strong>Owl Studio</strong><span data-i18n="heroProof3">Izzy &amp; Alli</span></div>
         </div>
       </div>
-      <div class="hero-visual">
-        <div class="hero-image-frame"><img src="image/Orbiting.png" alt="Cena do jogo Orbiting mostrando uma nave espacial" fetchpriority="high"><div class="hero-image-shade"></div><div class="hero-image-label"><span class="micro-label">FEATURED GAME / 2026</span><strong>ORBITING</strong></div></div>
-        <div class="hero-floating-note"><span class="note-cross" aria-hidden="true">✳</span><div><b data-i18n="heroNoteTitle">Programação + criatividade</b><small data-i18n="heroNoteText">Do protótipo à experiência.</small></div></div>
-        <span class="hero-coordinate" aria-hidden="true">35° 19′ / BUILD. PLAY. ITERATE.</span>
+      <div class="hero-portrait-area">
+        <figure class="portrait-card">
+          <img class="portrait-image" src="image/Perfil.jpeg" alt="" fetchpriority="high">
+          <figcaption class="portrait-caption"><span class="micro-label" data-i18n="">ESTE SOU EU / EM BREVE UMA FOTO</span><span data-i18n="photoCity">São Paulo, Brasil</span></figcaption>
+        </figure>
+        <a class="hero-game-peek" href="project.html?id=orbiting" aria-label="Ver projeto Orbiting">
+          <img src="image/Orbiting.png" alt="" loading="lazy"><span><small data-i18n="heroProjectLabel">UM DOS MEUS PROJETOS</small><strong>ORBITING ↗</strong></span>
+        </a>
+        <div class="portrait-marker" aria-hidden="true">JCV / 2026</div>
       </div>
     </section>
 
     <section id="work" class="section-block container" aria-labelledby="work-title">
       <div class="section-topline"><span class="section-index">01 / WORK</span><span data-i18n="sectionWorkTop">PROJETOS EM DESTAQUE</span></div>
-      <div class="section-heading"><div><h2 id="work-title" data-i18n-html="workTitle">Jogos com <em>história por trás.</em></h2><p data-i18n="workDescription">Não apenas o resultado final: o que construí, quais desafios enfrentei e como resolvi cada um deles.</p></div><span class="heading-decoration" aria-hidden="true">↘</span></div>
+      <div class="section-heading"><div><h2 id="work-title" data-i18n-html="workTitle">Jogos que eu <em>ajudei a construir.</em></h2><p data-i18n="workDescription">Um pouco do que fiz em cada projeto — de mecânicas e sistemas às decisões que foram aparecendo no caminho.</p></div><span class="heading-decoration" aria-hidden="true">↘</span></div>
       <div id="featured-projects" class="featured-projects" aria-live="polite"></div>
     </section>
 
+    <section id="experience" class="section-block container home-experience" aria-labelledby="experience-title">
+      <div class="section-topline"><span class="section-index" data-i18n="sectionExperienceIndex">02 / TRAJETÓRIA</span><span data-i18n="experienceTop">EXPERIÊNCIA PROFISSIONAL</span></div>
+      <div class="section-heading"><div><h2 id="experience-title" data-i18n-html="experienceTitle">O que aprendi <em>trabalhando.</em></h2><p data-i18n="experienceIntro">Antes de fazer jogos, trabalhei com sites e com dados. Depois, no Izzy &amp; Alli, pude juntar programação, áudio e desenvolvimento em equipe.</p></div></div>
+      <div class="experience-list">
+        <article class="experience-item"><div class="experience-count">01 <span data-i18n="internBadge">/ ESTÁGIO</span></div><div class="experience-copy"><h3 data-i18n="experience1Title">Desenvolvimento Web</h3><p class="experience-where" data-i18n="experience1Where">Plataforma de ensino de idiomas</p><p data-i18n="experience1Body">Criei e mantive páginas para uma plataforma de idiomas. Foi uma das minhas primeiras experiências com entregas reais, manutenção e trabalho em equipe.</p></div><div class="experience-tech">WEB · FRONT-END</div></article>
+        <article class="experience-item"><div class="experience-count">02 <span data-i18n="internBadge">/ ESTÁGIO</span></div><div class="experience-copy"><h3 data-i18n="experience2Title">Análise de Dados</h3><p class="experience-where" data-i18n="experience2Where">Python · Tratamento e visualização de dados</p><p data-i18n="experience2Body">Trabalhei com Python na organização e visualização de conjuntos de dados. Isso reforçou uma parte da programação de que gosto muito: entender um problema antes de construir a solução.</p></div><div class="experience-tech">PYTHON · DATA</div></article>
+        <article class="experience-item"><div class="experience-count">03 <span data-i18n="gamesBadge">/ JOGOS</span></div><div class="experience-copy"><h3>Owl Studio <span class="experience-project">/ Izzy &amp; Alli</span></h3><p class="experience-where" data-i18n="experience3Where">Programação em Godot e direção de áudio</p><p data-i18n="experience3Body">No Izzy &amp; Alli, participei da programação de sistemas como quests e interfaces, além de contribuir com o áudio. Trabalhar em um jogo que passou da competição para eventos como a gamescom me ensinou muito sobre continuidade e colaboração.</p><a class="text-link" href="project.html?id=izzy-and-alli"><span data-i18n="experience3Link">Ver o Izzy &amp; Alli</span><span aria-hidden="true">↗</span></a></div><div class="experience-tech">GODOT · AUDIO</div></article>
+      </div>
+    </section>
+
+    <section id="education" class="home-education" aria-labelledby="education-title"><div class="container">
+      <div class="section-topline"><span class="section-index" data-i18n="sectionEducationIndex">03 / FORMAÇÃO</span><span data-i18n="educationTop">FORMAÇÃO ACADÊMICA</span></div>
+      <div class="education-heading"><h2 id="education-title" data-i18n-html="educationTitle">Da informática para <em>os jogos.</em></h2><p data-i18n="educationIntro">Minha formação técnica veio antes da graduação em jogos — e as duas continuam aparecendo no que eu desenvolvo.</p></div>
+      <div class="education-grid">
+        <article class="education-card"><div class="education-monogram">FIAP</div><div><span class="education-label" data-i18n="educationStatus1">EM CURSO · 2026</span><h3 data-i18n="education1Title">Jogos Digitais</h3><p data-i18n="education1Body">Graduação tecnológica com foco em programação, game design e criação de projetos em equipe.</p></div></article>
+        <article class="education-card"><div class="education-monogram">IFSP</div><div><span class="education-label" data-i18n="educationStatus2">CONCLUÍDO · 2023</span><h3 data-i18n="education2Title">Técnico em Informática</h3><p data-i18n="education2Body">A base da minha trajetória em desenvolvimento de software e resolução de problemas.</p></div></article>
+      </div>
+    </div></section>
+
     <section id="about" class="about-section" aria-labelledby="about-title">
       <div class="container about-grid">
-        <div class="about-sticky"><span class="section-index">02 / ABOUT</span><h2 id="about-title" data-i18n-html="aboutTitle">Código, design e <em>curiosidade.</em></h2><div class="about-symbol" aria-hidden="true">✳</div></div>
+        <div class="about-sticky"><span class="section-index" data-i18n="sectionAboutIndex">04 / SOBRE MIM</span><h2 id="about-title" data-i18n-html="aboutTitle">Tem muita coisa minha <em>fora do código.</em></h2><div class="about-symbol" aria-hidden="true">✳</div></div>
         <div class="about-content">
-          <p class="about-lead" data-i18n="aboutLead">Gosto de transformar ideias em sistemas que sejam divertidos de usar — e de entender o que faz uma mecânica realmente funcionar.</p>
-          <p data-i18n="aboutBody">Sou estudante de Jogos Digitais na FIAP, formado no curso técnico de Informática pelo IFSP. Minha trajetória inclui desenvolvimento web, análise de dados e colaboração com equipes em projetos independentes e game jams.</p>
+          <p class="about-lead" data-i18n="aboutLead">Gosto tanto de desmontar mentalmente uma mecânica quanto de sentar e jogar sem pensar em como ela foi feita.</p>
+          <p data-i18n="aboutBody">Participo de game jams, experimento ideias pequenas e gosto de trabalhar com pessoas de áreas diferentes. Às vezes estou ajustando controles no Unity; outras vezes, pensando em como uma interface, uma música ou um detalhe muda a sensação do jogo.</p>
           <div class="skills-grid">
-            <div class="skill-panel"><span>01</span><h3 data-i18n="skill1Title">Gameplay</h3><p data-i18n="skill1Body">Programação de mecânicas, controles, combate, física e interação.</p><small>UNITY · C# · GODOT · UNREAL</small></div>
-            <div class="skill-panel"><span>02</span><h3 data-i18n="skill2Title">Sistemas de jogo</h3><p data-i18n="skill2Body">Progressão, interfaces, inventários, economia e prototipagem.</p><small>UI/UX · SYSTEM DESIGN</small></div>
-            <div class="skill-panel"><span>03</span><h3 data-i18n="skill3Title">Além dos jogos</h3><p data-i18n="skill3Body">Experiência com web, aplicações interativas e integrações de dados.</p><small>JS · TYPESCRIPT · PYTHON</small></div>
+            <div class="skill-panel"><span>01</span><h3 data-i18n="skill1Title">Gameplay</h3><p data-i18n="skill1Body">Movimentação, combate, física e aquela tentativa de fazer os controles parecerem naturais.</p><small>UNITY · C# · GODOT</small></div>
+            <div class="skill-panel"><span>02</span><h3 data-i18n="skill2Title">Sistemas</h3><p data-i18n="skill2Body">Interfaces, inventários, progressão, salvamento e as partes que conectam tudo.</p><small>UI · PROGRESSÃO · SAVE</small></div>
+            <div class="skill-panel"><span>03</span><h3 data-i18n="skill3Title">Outras experiências</h3><p data-i18n="skill3Body">Desenvolvimento web e análise de dados também fazem parte do meu jeito de resolver problemas.</p><small>WEB · TYPESCRIPT · PYTHON</small></div>
           </div>
-          <a class="text-link about-link" href="mailto:viveiros.jose02@gmail.com"><span data-i18n="aboutCTA">Vamos criar algo juntos?</span><span aria-hidden="true">↗</span></a>
+          <a class="text-link about-link" href="mailto:viveiros.jose02@gmail.com"><span data-i18n="aboutCTA">Quer conversar sobre jogos?</span><span aria-hidden="true">↗</span></a>
         </div>
       </div>
     </section>
 
+    <section id="favorites" class="section-block container favorites-section" aria-labelledby="favorites-title">
+      <div class="section-topline"><span class="section-index" data-i18n="sectionFavoritesIndex">05 / NA MINHA LISTA</span><span data-i18n="favoritesTop">JOGOS FAVORITOS</span></div>
+      <div class="section-heading"><div><h2 id="favorites-title" data-i18n-html="favoritesTitle">Os jogos que <em>ficam comigo.</em></h2><p data-i18n="favoritesIntro">Não é uma lista de referências obrigatórias. São jogos a que sempre volto, ou que me fizeram olhar para design e narrativa de outro jeito.</p></div></div>
+      <div class="favorites-grid">
+        <article class="favorite-card"><span>01</span><h3>The Legend of Zelda</h3><p data-i18n="favorite1">A vontade de explorar, se perder um pouco e descobrir o que existe depois da próxima curva.</p></article>
+        <article class="favorite-card"><span>02</span><h3>Hades</h3><p data-i18n="favorite2">Combate com ritmo e uma história que continua crescendo a cada tentativa.</p></article>
+        <article class="favorite-card"><span>03</span><h3>Minecraft</h3><p data-i18n="favorite3">Um mundo que dá ferramentas e deixa a criatividade decidir o resto.</p></article>
+        <article class="favorite-card"><span>04</span><h3>Inscryption</h3><p data-i18n="favorite4">A sensação de que um jogo ainda consegue surpreender quando você acha que já entendeu tudo.</p></article>
+        <article class="favorite-card"><span>05</span><h3>Undertale</h3><p data-i18n="favorite5">Personagens, humor e escolhas que fazem a experiência parecer muito pessoal.</p></article>
+      </div>
+    </section>
+
     <section class="section-block container more-work" aria-labelledby="more-work-title">
-      <div class="section-topline"><span class="section-index">03 / PLAYGROUND</span><span data-i18n="moreWorkTop">OUTROS PROJETOS & EXPERIMENTOS</span></div>
-      <div class="section-heading section-heading-compact"><div><h2 id="more-work-title" data-i18n-html="moreWorkTitle">Explorando <em>possibilidades.</em></h2><p data-i18n="moreWorkDescription">Jams, protótipos, estudos e ideias que também fazem parte da minha trajetória.</p></div></div>
+      <div class="section-topline"><span class="section-index" data-i18n="sectionMoreIndex">06 / PLAYGROUND</span><span data-i18n="moreWorkTop">OUTROS PROJETOS & EXPERIMENTOS</span></div>
+      <div class="section-heading section-heading-compact"><div><h2 id="more-work-title" data-i18n-html="moreWorkTitle">Nem tudo cabe nos <em>destaques.</em></h2><p data-i18n="moreWorkDescription">Outros jogos, trabalhos de faculdade e experimentos que também me ensinaram alguma coisa.</p></div></div>
       <div id="other-projects" class="other-projects" aria-live="polite"></div>
     </section>
 
-    <section id="contact" class="contact-section"><div class="container contact-grid"><div><span class="section-index">04 / CONTACT</span><h2 data-i18n-html="contactTitle">Tem uma ideia? <em>Vamos conversar.</em></h2><p data-i18n="contactDescription">Estou sempre interessado em conhecer equipes, trocar experiências e colaborar em novos projetos.</p><a class="button button-dark" href="mailto:viveiros.jose02@gmail.com"><span data-i18n="contactCTA">Enviar um e-mail</span><span aria-hidden="true">↗</span></a></div><div class="contact-side"><span data-i18n="findMe">ME ENCONTRE TAMBÉM</span><a href="https://www.linkedin.com/in/jos%C3%A9-viveiros-b39871285/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://github.com/josecarlos3040" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="mailto:viveiros.jose02@gmail.com">viveiros.jose02@gmail.com ↗</a></div></div></section>
+    <section id="contact" class="contact-section"><div class="container contact-grid"><div><span class="section-index" data-i18n="sectionContactIndex">07 / CONTATO</span><h2 data-i18n-html="contactTitle">Gostou do que viu? <em>Me chama.</em></h2><p data-i18n="contactDescription">Se você quer conversar sobre jogos, trocar ideias ou conhecer melhor algum projeto, meu contato está aqui.</p><a class="button button-dark" href="mailto:viveiros.jose02@gmail.com"><span data-i18n="contactCTA">Enviar um e-mail</span><span aria-hidden="true">↗</span></a></div><div class="contact-side"><span data-i18n="findMe">ME ENCONTRE TAMBÉM</span><a href="https://www.linkedin.com/in/jos%C3%A9-viveiros-b39871285/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://github.com/josecarlos3040" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="mailto:viveiros.jose02@gmail.com">viveiros.jose02@gmail.com ↗</a></div></div></section>
   </main>
   <footer class="site-footer"><div class="container footer-inner"><span>© <span id="current-year">2026</span> José Carlos de Viveiros Junior</span><span data-i18n="footerMade">Feito com código, jogos e café.</span><a href="#main" data-i18n="backToTop">Voltar ao topo ↑</a></div></footer>
 </body>
